@@ -10,8 +10,8 @@ var inputMode = {
     var len = document.styleSheets.length;
     for (var i = 0; i < len; ++i) {
       var css = document.styleSheets[i];
-      for (var i = 0; i < css.cssRules.length; ++i) {
-        var r = css.cssRules[i];
+      for (var j = 0; i < css.cssRules.length; ++j) {
+        var r = css.cssRules[j];
         if (r.type == 1) {  // style rule
           // FIXME:
           // It seems unsupported properties are discarded at parsing.
