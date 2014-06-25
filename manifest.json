@@ -1,7 +1,7 @@
 {
   "name": "CSS ime-mode converter",
   "manifest_version": 2,
-  "version": "0.1",
+  "version": "0.2",
 
   "description": "Translates CSS ime-mode into HTML5 inputmode.",
   "icons": { "128" : "assets/icon_128.png" },
