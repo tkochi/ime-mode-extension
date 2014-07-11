@@ -10,6 +10,8 @@ var inputMode = {
     var len = document.styleSheets.length;
     for (var i = 0; i < len; ++i) {
       var css = document.styleSheets[i];
+      if (!css.cssRules)
+        continue;
       for (var j = 0; j < css.cssRules.length; ++j) {
         var r = css.cssRules[j];
         if (r.type == 1) {  // style rule
